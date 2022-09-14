@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.png" type="image/png">
+    <title>Выбираю•IT | Мой профиль</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__btn">
+                    <span></span>
+                </div>
+                <div class="header__logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__img" src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">
+                            <img class="header__menu-img" src="images/menu-img-1.png" alt="">
+                            <p class="header__menu-text">Каталог профессий</p>
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">
+                            <img class="header__menu-img" src="images/menu-img-2.png" alt="">
+                            <p class="header__menu-text">Выйти</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="header-bottom">
+        <div class="container">
+            <div class="header-bottom__inner">
+                <nav class="header-bottom__menu">
+                    <li class="header-bottom__menu-item">
+                        <a class="header-bottom__menu-link" href="#">
+                            <p class="header-bottom__menu-text header-bottom__menu-text--active">Мой профиль</p>
+                        </a>
+                    </li>
+                    <li class="header-bottom__menu-item">
+                        <a class="header-bottom__menu-link" href="#">
+                            <p class="header-bottom__menu-text">Обратная связь</p>
+                        </a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <div class="wrapper">
+        <main class="main">
+            <section class="profile">
+                <div class="container">
+                    <div class="profile__inner">
+                        <div class="profile__top">
+                            <div class="profile__user">
+                                <div class="profile__user-img">
+                                    <img src="images/edit-photo-icon.png" alt="">
+                                </div>
+                                <div class="profile__user-text">
+                                    <h1 class="profile__user-name">
+                                        Александра Кузьмина
+                                    </h1>
+                                    <a class="profile__user-edit" href="#modal">
+                                        <img alt="" class="profile__user-icon" src="images/pen.png">
+                                        <p class="profile__user-descr">Редактировать профиль</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="profile__search">
+                                <input class="profile__search-input" placeholder="Что вы хотите найти?">
+                                <label class="profile__search-label"></label>
+                                <div class="profile__search-btn">
+                                    Найти
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile__content profile__edit">
+                            <h2 class="profile__content-title">
+                                Мой профиль
+                            </h2>
+                            <div class="edit-form__group">
+                                <label class="edit-form__label profile__label" type="text">Фамилия</label>
+                                <input class="edit-form__input" readonly placeholder="Кузьмина">
+                            </div>
+                            <div class="edit-form__group">
+                                <label class="edit-form__label profile__label" type="text">Имя</label>
+                                <input class="edit-form__input" readonly placeholder="Александра">
+                            </div>
+                            <div class="edit-form__group">
+                                <label class="edit-form__label profile__label" type="text">Отчество</label>
+                                <input class="edit-form__input" readonly placeholder="Андреевна">
+                            </div>
+                            <div class="edit-form__group">
+                                <label class="edit-form__label profile__label">Дата рождения</label>
+                                <input class="edit-form__input" readonly placeholder="05.11.1997">
+                            </div>
+                            <div class="edit-form__group">
+                                <label class="edit-form__label profile__label">Образование</label>
+                                <input class="edit-form__input" readonly placeholder="Полное высшее">
+                            </div>
+                            <div class="edit-form__group">
+                                <label class="edit-form__label profile__label">Город</label>
+                                <input class="edit-form__input" readonly
+                                    placeholder="Санкт-Петербург (Северо-Западный федеральный округ)">
+                            </div>
+                            <div class="edit-form__group">
+                                <label class="edit-form__label profile__label">Подпись</label>
+                                <input class="edit-form__input" readonly
+                                    placeholder="Выпускница бакалавриата ИТ-технологий">
+                            </div>
+                            <div class="edit-form__group">
+                                <label class="edit-form__label profile__label">E-mail</label>
+                                <input class="edit-form__input" type="email" readonly
+                                    placeholder="alexkuzmina01@mail.ru">
+                            </div>
+                            <div class="edit-form__group edit-form__group-textarea">
+                                <label class="edit-form__label profile__label edit-form__label-textarea">О себе</label>
+                                <textarea class="edit-form__input edit-form__input-textarea" name="" id="" cols="1"
+                                    rows="1" maxlength="1024" readonly
+                                    placeholder="Хочу поступить в магистратуру"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__content">
+                        <div class="footer__logo">
+                            <a class="logo__link" href="#">
+                                <img class="logo__img" src="images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="footer__contact">
+                            <h2 class="footer__title">проект издательского дома «положевец и партнеры»</h2>
+                            <div class="footer__mail">По вопросам партнерства обращайтесь по электронной почте
+                                <a href="mailto:chooseit@samag.ru" class="footer__mail-link">chooseit@samag.ru</a>
+                            </div>
+                            <div class="footer__phone">Телефон:
+                                <a href="tel:+7 499 277-12-45" class="footer__phone-link">+7 499 277-12-45</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__license">
+                            <p>@2022 Портал Выбираю•IT <br> Помощь в выборе направления обучения, получении высшего
+                                и дополнительного
+                                образования, и профессионального развития в сфере ИТ</p>
+                        </div>
+                        <div class="footer__support">
+                            <p class="footer__support-text">Информационная <br> поддержка</p>
+                            <a class="footer__support-link" href="#">
+                                <img class="footer__support-img" src="images/footer-support-img.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal__box">
+            <h3 class="modal__name">
+                проверочный код
+            </h3>
+            <p class="modal__text">
+                Код подтверждения был отправлен на контактный адрес электронной почты
+            </p>
+            <form>
+                <input class="modal__input" required maxlength="1" minlength="1" type="text">
+                <input class="modal__input" required maxlength="1" minlength="1" type="text">
+                <input class="modal__input" required maxlength="1" minlength="1" type="text">
+                <input class="modal__input" required maxlength="1" minlength="1" type="text">
+                <input class="modal__input" required maxlength="1" minlength="1" type="text">
+                <input class="modal__input" required maxlength="1" minlength="1" type="text">
+                <div class="modal__refresh">
+                    <a class="modal__refresh-link" href="#">
+                        Отправить повторно
+                    </a>
+                </div>
+                <div class="modal__btns">
+                    <a class="modal__back-btn" href="#close">назад</a>
+                    <button class="modal__accept-btn" type="submit">подтвердить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/icon.png" type="image/png">
+  <title>Выбираю•IT | Изменить пароль</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__btn">
+          <span></span>
+        </div>
+        <div class="header__logo">
+          <a class="logo__link" href="#">
+            <img class="logo__img" src="images/logo.png" alt="">
+          </a>
+        </div>
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">
+              <img class="header__menu-img" src="images/menu-img-1.png" alt="">
+              <p class="header__menu-text">Каталог профессий</p>
+            </a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">
+              <img class="header__menu-img" src="images/menu-img-2.png" alt="">
+              <p class="header__menu-text">Выйти</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="header-bottom">
+    <div class="container">
+      <div class="header-bottom__inner">
+        <nav class="header-bottom__menu">
+          <li class="header-bottom__menu-item">
+            <a class="header-bottom__menu-link" href="#">
+              <p class="header-bottom__menu-text">Мой профиль</p>
+            </a>
+          </li>
+          <li class="header-bottom__menu-item">
+            <a class="header-bottom__menu-link" href="#">
+              <p class="header-bottom__menu-text">Обратная связь</p>
+            </a>
+          </li>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <main class="main">
+      <section class="edit">
+        <div class="container">
+          <h1 class="edit-form__title">
+            Редактировать профиль
+          </h1>
+          <div class="edit__inner">
+            <form class="edit-form">
+              <div class="edit-form__text">
+                <div class="edit-form__group">
+                  <label class="edit-form__label" type="text">Фамилия <span>*</span></label>
+                  <input class="edit-form__input" placeholder="Кузьмина">
+                </div>
+                <div class="edit-form__group">
+                  <label class="edit-form__label" type="text">Имя <span>*</span></label>
+                  <input class="edit-form__input" placeholder="Александра">
+                </div>
+                <div class="edit-form__group">
+                  <label class="edit-form__label" type="text">Отчество</label>
+                  <input class="edit-form__input" placeholder=" ">
+                </div>
+                <div class="edit-form__group">
+                  <label class="edit-form__label">Дата рождения</label>
+                  <input class="edit-form__input" placeholder=" ">
+                </div>
+                <div class="edit-form__group">
+                  <label class="edit-form__label">Образование</label>
+                  <select class="select" name="education">
+                    <option value="1">Полное высшее</option>
+                    <option value="2">Неполное высшее</option>
+                    <option value="3">Среднее</option>
+                  </select>
+                </div>
+                <div class="edit-form__group">
+                  <label class="edit-form__label">Город</label>
+                  <select class="select" name="city">
+                    <option value="1">Санкт-Петербург (Северо-Западный федеральный округ)</option>
+                    <option value="2">Санкт-Петербург (Северо-Восточный федеральный округ)</option>
+                    <option value="3">Санкт-Петербург (Юго-Западный федеральный округ)</option>
+                  </select>
+                </div>
+                <div class="edit-form__group">
+                  <label class="edit-form__label">Подпись</label>
+                  <input class="edit-form__input" placeholder=" ">
+                </div>
+                <p class="edit-form__tooltip">Например: «студент-филолог»</p>
+                <div class="edit-form__group">
+                  <label class="edit-form__label">E-mail <span>*</span></label>
+                  <input class="edit-form__input" type="email" placeholder="alexkuzmina01@mail.ru">
+                </div>
+                <div class="edit-form__group edit-form__group-textarea">
+                  <label class="edit-form__label edit-form__label-textarea">О себе</label>
+                  <textarea class="edit-form__input edit-form__input-textarea" name="" id="" cols="1" rows="1" maxlength="1024" placeholder="Хочу поступить в магистратуру"></textarea>
+                </div>
+                <p class="edit-form__tooltip">Не более 1024 символа</p>
+                <div class="edit-form__group">
+                  <label class="edit-form__label">Пароль <span>*</span></label>
+                  <input class="edit-form__input" type="password" placeholder=" ">
+                </div>
+                <div class="edit-form__group">
+                  <label class="edit-form__label">Ещё раз <span>*</span></label>
+                  <input class="edit-form__input" type="password" placeholder=" ">
+                </div>
+                <div class="edit-form__group">
+                  <label>
+                    <input class="edit-form__check-box" type="checkbox">
+                    <span class="edit-form__check-style"></span>
+                    Я согласен(а) с <a href="#"> политикой обработки персональных данных</a>
+                  </label>
+                </div>
+                <div class="edit-form__btns">
+                  <button class="edit-form__button">Сохранить</button>
+                  <div class="edit-from__delete">
+                    <a class="edit-form__delete-link" href="#modal">Удалить учётную запись</a>
+                  </div>
+                </div>
+              </div>
+              <div class="edit-form__photo">
+                <div class="edit-form__photo-box">
+                  <img class="edit-form__photo-img" src="images/edit-photo-icon.png" alt="">
+                  <h2 class="edit-form__photo-title">
+                    Загрузить фотографию
+                  </h2>
+                  <input type="file" accept="jpg,png,gif">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__content">
+            <div class="footer__logo">
+              <a class="logo__link" href="#">
+                <img class="logo__img" src="images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="footer__contact">
+              <h2 class="footer__title">проект издательского дома «положевец и партнеры»</h2>
+              <div class="footer__mail">По вопросам партнерства обращайтесь по электронной почте
+                <a href="mailto:chooseit@samag.ru" class="footer__mail-link">chooseit@samag.ru</a>
+              </div>
+              <div class="footer__phone">Телефон:
+                <a href="tel:+7 499 277-12-45" class="footer__phone-link">+7 499 277-12-45</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__license">
+              <p>@2022 Портал Выбираю•IT <br> Помощь в выборе направления обучения, получении высшего и дополнительного
+                образования, и профессионального развития в сфере ИТ</p>
+            </div>
+            <div class="footer__support">
+              <p class="footer__support-text">Информационная <br> поддержка</p>
+              <a class="footer__support-link" href="#">
+                <img class="footer__support-img" src="images/footer-support-img.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal__box">
+        <h3 class="modal__name">
+            проверочный код
+        </h3>
+        <p class="modal__text">
+            Код подтверждения был отправлен на контактный адрес электронной почты
+        </p>
+        <form>
+            <input class="modal__input" required maxlength="1" minlength="1" type="text">
+            <input class="modal__input" required maxlength="1" minlength="1" type="text">
+            <input class="modal__input" required maxlength="1" minlength="1" type="text">
+            <input class="modal__input" required maxlength="1" minlength="1" type="text">
+            <input class="modal__input" required maxlength="1" minlength="1" type="text">
+            <input class="modal__input" required maxlength="1" minlength="1" type="text">
+            <div class="modal__refresh">
+                <a class="modal__refresh-link" href="#">
+                    Отправить повторно
+                </a>
+            </div>
+            <div class="modal__btns">
+                <a class="modal__back-btn" href="#close">назад</a>
+                <button class="modal__accept-btn" type="submit">подтвердить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

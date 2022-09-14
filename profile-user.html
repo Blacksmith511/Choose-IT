@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/icon.png" type="image/png">
+  <title>Выбираю•IT | Личный кабинет</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__btn">
+          <span></span>
+        </div>
+        <div class="header__logo">
+          <a class="logo__link" href="#">
+            <img class="logo__img" src="images/logo.png" alt="">
+          </a>
+        </div>
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">
+              <img class="header__menu-img" src="images/menu-img-1.png" alt="">
+              <p class="header__menu-text">Каталог профессий</p>
+            </a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">
+              <img class="header__menu-img" src="images/menu-img-2.png" alt="">
+              <p class="header__menu-text">Выйти</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="header-bottom">
+    <div class="container">
+      <div class="header-bottom__inner">
+        <nav class="header-bottom__menu">
+          <li class="header-bottom__menu-item">
+            <a class="header-bottom__menu-link" href="#">
+              <p class="header-bottom__menu-text">Личный кабинет</p>
+            </a>
+          </li>
+          <li class="header-bottom__menu-item">
+            <a class="header-bottom__menu-link" href="#">
+              <p class="header-bottom__menu-text">Вопросы</p>
+            </a>
+          </li>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <main class="main">
+      <section class="profile-user">
+        <div class="container">
+          <div class="profile-user__top profile__top">
+            <div class="profile__user">
+              <div class="profile__user-img">
+                <img src="images/user-1.png" alt="">
+              </div>
+              <div class="profile__user-text">
+                <h1 class="profile__user-name">
+                  Московский институт технологий и управления
+                </h1>
+                <div class="profile-user__info">
+                  <span class="profile-user__university">Учебное заведение</span>
+                  <a class="profile__user-edit" href="#modal">
+                    <img alt="" class="profile__user-icon" src="images/pen.png">
+                    <p class="profile__user-descr">Редактировать профиль</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="profile__search">
+              <input class="profile__search-input" placeholder="Что вы хотите найти?">
+              <label class="profile__search-label"></label>
+              <div class="profile__search-btn">
+                Найти
+              </div>
+            </div>
+          </div>
+          <div class="profile-user__content">
+            <h2 class="profile-user__content-title">
+              Об учебном заведении
+            </h2>
+            <p class="profile-user__content-text">
+              Наш университет за современный подход в образовании. Мы постоянно берём обратную связь от работодателей
+              и адаптируем учебные программы. Наша миссия — создать систему образования, которая будет доступна каждому.
+              Дистанционное обучение полностью отвечает поставленным целям и задачам, поэтому инновационные технологии —
+              неотъемлемая часть образовательного процесса в нашем институте.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="suggest">
+        <div class="container">
+          <div class="suggest__inner">
+            <h2 class="suggest__title">
+              Мы предлагаем
+            </h2>
+            <div class="tabs">
+              <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+              <label for="tab-btn-1">Курсы</label>
+              <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+              <label for="tab-btn-2">Образование</label>
+              <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+              <label for="tab-btn-3">Стажировки</label>
+              <input type="radio" name="tab-btn" id="tab-btn-4" value="">
+              <label for="tab-btn-4">Вакансии</label>
+              <div class="tabs__content" id="content-1">
+                <table class="tabs__content-table">
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">82 программы</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Форма</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Длительность</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Начало</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Стоимость обучения</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Astra Linux для пользователей</a></p>
+                      <p class="tabs__content-sub-text">Профессиональная переподготовка</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Очная</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-time">7 месяца</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">В любое время</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-price">28 900 ₽</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Администрирование Astra Linux Special Edition</p></a>
+                      <p class="tabs__content-sub-text">Профессиональная переподготовка</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Заочная</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-time">4 месяца</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">В любое время</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-price">28 900 ₽</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Проектирование серверной инфраструктуры</a></p>
+                      <p class="tabs__content-sub-text">Профессиональная переподготовка</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Любая</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-time">3 месяца</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">В любое время</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-price">19 900 ₽</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Сетевое администрирование Astra Linux SE</p></a>
+                      <p class="tabs__content-sub-text">Профессиональная переподготовка</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Очная</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-time">8 месяца</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">В любое время</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-price">20 400 ₽</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="tabs__content" id="content-2">
+                <table class="tabs__content-table">
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">8 программ</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Форма</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Язык обучения</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Общежитие</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Военная кафедра</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Программирование</a></p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Очная</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Русский</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">есть</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">есть</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> ИТ-менеджмент</a></p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Заочная</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Русский</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">есть</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">есть</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Информационная безопасность</a></p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Любая</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Русский</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">есть</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">есть</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Телекоммуникации и связь</a></p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Очная</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Русский</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">есть</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">нет</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="tabs__content" id="content-3">
+                <table class="tabs__content-table">
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">63 предложения</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Организация</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Описание</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Статус</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Стажер-программист 1С</p>
+                      </a>
+                    </td>
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-sub-link" href="#"><p>IT SVS</p>
+                      </a>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Программирование, разработка в среде 1С:Предприятие (8.2, 8.3, Управляемое приложение). Внедрение, поддержка и доработка конфигураций 1С</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Новая</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Стажер в IT-рекрутмент</p>
+                      </a>
+                    </td>
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-sub-link" href="#"><p>ANCOR</p></a>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Проводить скриннинг кандидатов</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Новая</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Младший программист 1С (Junior)</a></p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-sub-link" href="#"><p>ООО Внедренцы и Программисты</p></a>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Выполнять задачи от наставника — тимлида команды</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Удалена</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="tabs__content" id="content-4">
+                <table class="tabs__content-table">
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">9 предложений</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Организация</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Оклад</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Обязанности</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Статус</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Менеджер маркетплейсов</</p>a>                    
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">ООО Подиум</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-time">50 000–70 000 ₽</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Полное ведение интернет площадки Вайлдберис, Озон. Внедрение новых площадок. Работа с контентом. Заполнение карточек товара</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Новая</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Frontend Developer (React)</p>
+                      </a>                    
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Aston</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-time">70 000 ₽</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Написание нового функционала с использованием новых технологий. Поддержка уже написанного функционала, исправление дефектов</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Новая</p>
+                    </td>
+                  </tr>
+                  <tr class="tabs__content-row">
+                    <td class="tabs__content-div">
+                      <a class="tabs__content-link" href="#"><p> Младший программист-разработчик 1С</</p>a>                    
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">НОНТОН.РФ</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-time">60 000 ₽</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Разработка доп. функциональности (отчёты, обработки, дополнительные модули) на управляемых формах в типовых и самописных конфигурациях</p>
+                    </td>
+                    <td class="tabs__content-div">
+                      <p class="tabs__content-text">Удалена</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="suggest__video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/-ZYbpasJzvg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="suggest__bid">
+              <h3 class="suggest__bid-title">
+                Хотите здесь учиться? Пройдите тест
+              </h3>
+              <button class="suggest__bid-btn">
+                пройти тестирование
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="contact__inner">
+            <h3 class="contact__title">
+              Контактная информация
+            </h3>
+            <div class="contact__info">
+              <div class="contact__info-items">
+                <div class="contact__info-item">
+                  <img class="contact__item-img" src="images/contact-img-1.png" alt="">
+                  <a class="contact__item-link" href="mailto:info@mitu.msk.ru">info@mitu.msk.ru</a>
+                </div>
+                <div class="contact__info-item">
+                  <img class="contact__item-img" src="images/contact-img-2.png" alt="">
+                  <a class="contact__item-link" href="tel:+7 495 648-62-26">+7 495 648-62-26 </a>
+                  <p class="contact__item-text contact__item-text--phone"> — Приёмная комиссия</p>
+                </div>
+              </div>
+              <div class="contact__info-items">
+                <div class="contact__info-item">
+                  <img class="contact__item-img" src="images/contact-img-3.png" alt="">
+                  <p class="contact__item-text">Москва, наб. Дербеневская, д.11</p>
+                </div>
+                <div class="contact__info-item">
+                  <img class="contact__item-img" src="images/contact-img-4.png" alt="">
+                  <p class="contact__item-text">Пролетарская, Павелецкая</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact__content">
+              <a class="contact__content-box contact__content-box--1" href="#">
+                <h4 class="contact__content-title">Консультация в подарок</h4>
+                <p class="contact__content-text">При покупке курса из трех предметов ЕГЭ или ОГЭ в Выбираю•IT получите в
+                  подарок 2 консультации по выбору образования и поступлению</p>
+              </a>
+              <a class="contact__content-box contact__content-box--2" href="#">
+                <h4 class="contact__content-title">Поступи в колледж Инфолайн
+                </h4>
+                <p class="contact__content-text">Поступление без экзаменов. Государственный диплом. Бесплатные секции и
+                  кружки. Предоставляем общежитие</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__content">
+            <div class="footer__logo">
+              <a class="logo__link" href="#">
+                <img class="logo__img" src="images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="footer__contact">
+              <h2 class="footer__title">проект издательского дома «положевец и партнеры»</h2>
+              <div class="footer__mail">По вопросам партнерства обращайтесь по электронной почте
+                <a href="mailto:chooseit@samag.ru" class="footer__mail-link">chooseit@samag.ru</a>
+              </div>
+              <div class="footer__phone">Телефон:
+                <a href="tel:+7 499 277-12-45" class="footer__phone-link">+7 499 277-12-45</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__license">
+              <p>@2022 Портал Выбираю•IT <br> Помощь в выборе направления обучения, получении высшего и дополнительного
+                образования, и профессионального развития в сфере ИТ</p>
+            </div>
+            <div class="footer__support">
+              <p class="footer__support-text">Информационная <br> поддержка</p>
+              <a class="footer__support-link" href="#">
+                <img class="footer__support-img" src="images/footer-support-img.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal__box">
+      <h3 class="modal__name">
+        проверочный код
+      </h3>
+      <p class="modal__text">
+        Код подтверждения был отправлен на контактный адрес электронной почты
+      </p>
+      <form>
+        <input class="modal__input" required maxlength="1" minlength="1" type="text">
+        <input class="modal__input" required maxlength="1" minlength="1" type="text">
+        <input class="modal__input" required maxlength="1" minlength="1" type="text">
+        <input class="modal__input" required maxlength="1" minlength="1" type="text">
+        <input class="modal__input" required maxlength="1" minlength="1" type="text">
+        <input class="modal__input" required maxlength="1" minlength="1" type="text">
+        <div class="modal__refresh">
+          <a class="modal__refresh-link" href="#">
+            Отправить повторно
+          </a>
+        </div>
+        <div class="modal__btns">
+          <a class="modal__back-btn" href="#close">назад</a>
+          <button class="modal__accept-btn" type="submit">подтвердить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
